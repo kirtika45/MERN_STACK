@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLForms</title>
+</head>
+<body>
+    <h3><u>Fill the form</u></h3>
+    <form>
+        <label for="fname"><b>First Name :</b></label>
+        <input type="text" id="fname"><br><br>
+        <label for="lname"><b>Last Name :</b></label>
+        <input type="text" id="lname"><br><br>
+
+        <p><b>Interested for the trip?</b></p>
+
+        <input type="radio" name="tripqestion" id="Yes">
+        <label for="Yes">Yes</label>
+        <input type="radio" name="tripqestion" id="No">
+        <label for="No">No</label>
+        <input type="radio" name="tripqestion" id="Maybe">
+        <label for="Maybe">Maybe</label>
+        <br><br>
+
+        <p><b>Continue if you're still interested.</b></p>
+
+        <label for="transport">Select the transport :</label>
+
+        <select id="transport">
+            <option>Air India</option>
+            <option>Indigo</option>
+            <option>Vistara</option>
+            <option>Air Asia</option>
+            <option>SpiceJet</option>
+        </select>
+
+        <br><br>
+        <p><b>Select the holiday venue. (Multiple answers, too)</b></p>
+        
+        <input type = 'checkbox' id="andaman">
+        <label for="andaman">Andaman</label>
+        <input type = 'checkbox' id="jimc">
+        <label for="jimc">Jim Corbett</label>
+        <input type = 'checkbox' id="jaipur">
+        <label for="jaipur">Jaipur</label>
+        <input type = 'checkbox' id="pondicherry">
+        <label for="pondicherry">Pondicherry</label>
+<br><br><br>
+        <label for = "week"> Prefered week :</label>
+        <input type ="week" id="week">
+
+        <br><br><br>
+
+        <label for = "fdate" >From Date :</label>
+            <input type = "date" id="fdate">
+         
+            <br><br><br>
+            <label for = "tdate" >To Date :</label>
+            <input type = "date" id="tdate">
+
+        <br><br><br>
+        <input type="submit" value="SUBMIT ">
+    </form>
+</body>
+</html>
