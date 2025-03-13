@@ -4,6 +4,7 @@ span{
     color: bisque;
 }
 
+/* for all elements use * */
 *{
     color: black;
 }

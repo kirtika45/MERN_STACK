@@ -1,0 +1,40 @@
+/* p{
+    color:black;
+    font-size: 50px;
+    color: #32a852;
+    border-color: #32a852;
+    border: 5px solid black;
+
+} */
+
+ p{
+    /* color: rgb(255,0,0); */
+    /* color: rgba(255,7,12,0.79); */
+    /* color: hsl(250, 100, 20); hue, saturation,lighting */
+    /* background-image: url('1602767976930960.png'); */
+    background-color:blanchedalmond;
+ } 
+
+body{
+    background: blue  100% 100% no-repeat scroll;
+    /* background-image: url('photo.png');  */
+    /* background-size: cover; */
+    /* background-size: 100% 100%;s */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: center; */
+    /* background-attachment: scroll; */
+}
+/* 
+span{
+    border: 2px solid;
+    
+}
+ */
+p{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid black;
+    border-width: 5px 12px 10px 3px;
+    border-color: aliceblue orangered khaki palegreen;
+    
+}
