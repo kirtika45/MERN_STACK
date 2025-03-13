@@ -1,0 +1,135 @@
+<!-- Planet Selling Webpage -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanetSellingShop</title>
+    <link rel="icon" type="image/x-icon" href="icons8-planet-50.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+        </style>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-weight: bold;
+            font-family: Big Shoulders Inline;
+            text-decoration: none;
+            color: white;
+        }
+        body{
+            background-color: #2c2c2c;
+        }
+        header{
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+        ul li{
+            margin: 0 10px;
+            border: 2px solid white;
+            border-radius: 50px;
+            padding: 0 5px;
+        }
+        .logo{
+            border: 2px solid white;
+            padding: 10px 5px;
+        }
+         li.signUp:hover a{
+            color: white;   
+        }
+        li.signUp{
+            color: black;
+            background-color: white;
+        }
+        li.signUp:hover{
+            background-color: #2c2c2c;
+        }
+        li.signUp a{
+            color: black;
+        }
+        img{
+            mix-blend-mode:normal;
+        }
+        main{
+            display: flex;
+            height: 90vh;
+            justify-content:space-evenly;
+            align-items: center;
+            margin: 0px 100px;
+            gap: 50px;
+        }
+        .contentLeft{
+            display: flex;
+            flex: 1;
+            justify-content: center;
+        }
+        .contentMiddle{
+            flex: 3;
+            /* padding-right: 50px; */
+        }
+        .contentRight{
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            /* padding-left: 50px; */
+        }
+        .sat{
+            max-width: 400px;
+            height: auto;
+            /* padding-left: 75px; */
+        }
+        .button{
+            display: flex;
+            justify-content:center;
+            background-color: green;
+            border-radius: 25px;
+            padding: 10px;
+            outline: none;
+            border: none;
+        }
+        .button:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Offer</a></li>
+                    <li><a href="#">Buy Now</a></li>
+                    <li><a href="#">Sell Now</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="signUp"><a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <div class="contentLeft">
+            <h2>Saturn</h2>
+        </div>
+        <div class="contentMiddle">
+            <p>Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Saturn is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. Saturn also has dozens of moons.
+                From the jets of water that spray from Saturn's moon Enceladus to the methane lakes on smoggy Titan, the Saturn system is a rich source of scientific discovery and still holds many mysteries.With an equatorial diameter of about 74,897 miles (120,500 kilometers), Saturn is 9 times wider than Earth. If Earth were the size of a nickel, Saturn would be about as big as a volleyball.
+
+                From an average distance of 886 million miles (1.4 billion kilometers), Saturn is 9.5 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 80 minutes to travel from the Sun to Saturn.</p>
+                <br>
+                <button class="button">BUY NOW</button>
+        </div>
+        <div class="contentRight">
+            <img src="saturn.jpeg"title='saturn' alt="Saturn" class="sat">
+        </div>
+    </main>
+</body>
+</html>
