@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Implementation</title>
+    <style>
+        .wrapper{
+            height: 100vh;
+            margin:0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            background-color: rgb(44, 44, 44);
+            width: 400px;
+            height: 400px;
+            border-radius: 20px;
+            border: 12px solid black;
+
+            display: flex;
+            justify-content: space-around;
+            justify-items: center;
+            margin: 0;
+            align-items: center;
+        }
+        .box{
+            background-color: rgb(234, 163, 33);
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            border: 5px solid rgb(176, 127, 36);
+            padding: 12px 0px 0px 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display: Flex</h1>
+    <div class="wrapper">
+        <div class="container">
+        <div class="box"><b>1</b></div>
+        <div class="box"><b>2</b></div>
+        <div class="box"><b>3</b></div>
+        </div>
+    </div>
+</body>
+</html>
