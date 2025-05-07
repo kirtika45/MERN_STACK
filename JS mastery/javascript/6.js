@@ -52,4 +52,36 @@ console.log(newPerson);
 // { name: 'kishi', age: 21, city: 'hyderabad' }
 
 
+let person2 = {
+    name : 'kishi',
+    age : 21, 
+    city : 'vizag',
+    greet: function(){
+        console.log('this is a function');
+    },
+    subject : {
+        math : 92, 
+        science : 95
+    }
+}
+
+console.log(person2.subject.math);
+//92
+
+let mySet = new Set();
+mySet.add('apple');
+mySet.add('banana');
+mySet.add('grapes');
+console.log(mySet);
+//Set(3) { 'apple', 'banana', 'grapes' }
+
+console.log(mySet.has('banana'));
+//true
+
+console.log(mySet.size);
+//3
+
+mySet.clear();
+console.log(mySet)
+//Set(0) {}
 
